@@ -1,8 +1,8 @@
 {
     "version": 2,
     "production": [
-        {
-            "dinoType": "/PaleoARK/Cryptoclidus/PA_Aberrant_Cryptoclidus_Charactre_BP_C.PA_Aberrant_Cryptoclidus_Charactre_BP_C",
+         {
+            "dinoType": "/NoUntameables/Eurypterid/Euryp_Character_Tameable.Euryp_Character_Tameable_C",
             "chanceToProduce": 1.0,
             "produces": [
                 {
@@ -10,13 +10,20 @@
                     "itemSelectMode": 0,
                     "items": [
                         {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_CryptoGel.PrimalItemResource_CryptoGel",
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0.1,
-                            "alternateItems": [],
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 0,
+                                    "maxQuantityInTerminal": 0
+                                }
+                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
@@ -25,7 +32,7 @@
                 }
             ]
         },
-        {
+                {
             "dinoType": "/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP",
             "chanceToProduce": 1.0,
             "produces": [
@@ -166,30 +173,6 @@
         },
         {
             "dinoType": "/Game/Genesis/Dinos/BiomeVariants/Ocean_Basilosaurus/Ocean_Basilosaurus_Character_BP.Ocean_Basilosaurus_Character_BP",
-            "chanceToProduce": 1.0,
-            "produces": [
-                {
-                    "intervalSeconds": 240.0,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0.0,
-                            "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "dinoType": "/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP",
             "chanceToProduce": 1.0,
             "produces": [
                 {
@@ -398,37 +381,6 @@
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0.0,
                             "alternateItems": [],
-                            "comsumesSelectMode": 0,
-                            "consumesItemsChance": 0,
-                            "consumesItems": []
-                        }
-                    ]
-                }
-            ]
-        },
- {
-            "dinoType": "/NoUntameables/Eurypterid/Euryp_Character_Tameable.Euryp_Character_Tameable_C",
-            "chanceToProduce": 1.0,
-            "produces": [
-                {
-                    "intervalSeconds": 240.0,
-                    "itemSelectMode": 0,
-                    "items": [
-                        {
-                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
-                            "maxQuantityPerCycle": 0,
-                            "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
-                            "alternateSelectMode": 0,
-                            "alternateItemsChance": 0.1,
-                            "alternateItems": [
-                                {
-                                    "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl",
-                                    "quantityPerItem": 1,
-                                    "maxQuantityPerCycle": 0,
-                                    "maxQuantityInTerminal": 0
-                                }
-                            ],
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
