@@ -10,7 +10,7 @@
                     "itemSelectMode": 0,
                     "items": [
                         {
-                            "bpPath": "/Game/PrimalEarth/PrimalItemResource_CryptoGel.PrimalItemResource_CryptoGel",
+                            "bpPath": "/Game/Mods/PA_Plus_Pack_01/Dinos/Cryptoclidus/Items/PrimalItemResource_CryptoGel.PrimalItemResource_CryptoGel",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
