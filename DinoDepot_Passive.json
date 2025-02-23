@@ -2,7 +2,7 @@
     "version": 2,
     "production": [
         {
-            "dinoType": "PA_Plus_Pack_01/Content/Dinos/Cryptoclidus/PA_Cryptoclidus_Character_BP.PA_Cryptoclidus_Character_BP",
+            "dinoType": "/PA_Plus_Pack_01/Dinos/Cryptoclidus/PA_Cryptoclidus_Character_BP.PA_Cryptoclidus_Character_BP_C",
             "chanceToProduce": 1.0,
             "produces": [
                 {
